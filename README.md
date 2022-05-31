@@ -1,5 +1,5 @@
-# My_web
 # This is a website that introduce Chenxuan Wei
+access through the link below: https://student.cs.uwaterloo.ca/~c54wei/
 ## including:
 - Introduction
 - My coursenotes
