@@ -1,0 +1,21 @@
+#building_text{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#building_image {
+    height: 200px;
+}
+
+body {
+    background: linear-gradient(red, yellow) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+

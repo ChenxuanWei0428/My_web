@@ -1,0 +1,16 @@
+{% extends "blog/layout.html" %}
+{% load static %}
+
+
+{% block stylesheet %}
+<link href="{% static 'blog/still_building.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+<div id ="building_text">
+    <h1>Sorry! this part of my website is still under construction!</h1>
+</div>
+<div id="building_image">
+    <img src="{% static 'blog/construction.jpg' %}">
+</div>
+{% endblock %}
