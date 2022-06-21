@@ -6,31 +6,26 @@
         <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
         <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
         <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+        <script type="text/javascript" src="js/notes.js"></script>
     </head>
 
 
     <body>
         
-    <div id="example"></div>
-    <script type="text/babel">
-    function tick() {
-    const element = (
-        <div>
-        <h1>Hello, world!</h1>
-        <h2>现在是 {new Date().toLocaleTimeString()}.</h2>
-        </div>
-    );
-    ReactDOM.render(
-        element,
-        document.getElementById('example')
-    );
-    }
-    
-    setInterval(tick, 1000);
-    </script>
+        <div id="example"></div>
         <div id = "note_intro">
-            <h3>The following is the course I took each semester and the course notes for some of the courses
+            <h3>The following is the course I took each semester and the course notes for each term
         </div>
+        <script type="text/babel">
+        function test() {
+            const element = myFunction();
+            ReactDOM.render(
+                element,
+                document.getElementById('example')
+            );
+        }
+        setInterval(test, 1000);
+        </script>
         <div id = "notes_table">
             <table>
                 <div id="table_header">
@@ -58,81 +53,9 @@
                             </div>
                         </tr>
                     </div>
-                    <div class="course">
-                        <tr>
-                            <div class="course_name">
-                                <td>Math 135</td>
-                            </div>
-                            <div>
-                                <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                            </div>
-                        </tr>
-                    </div>
-                    <div class="course">
-                        <tr>
-                            <div class="course_name">
-                                <td>Math 135</td>
-                            </div>
-                            <div>
-                                <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                            </div>
-                        </tr>
-                    </div>
-                    <div class="course">
-                        <tr>
-                            <div class="course_name">
-                                <td>Math 135</td>
-                            </div>
-                            <div>
-                                <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                            </div>
-                        </tr>
-                    </div>
                 </div>
-                <tr>
-                    <td rowspan="5">1B</td>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td rowspan="5">2A</td>
-                    <td>Math 237</td>
-                    <td><a href="./notes/Math 237 course note.pdf">Math 237 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
-                <tr>
-                    <td>Math 135</td>
-                    <td><a href="./notes/Math135_course_note.pdf">Math 135 course note</a></td>
-                </tr>
             </table>
         </div>
+        <button type="button" onclick="myFunction()">Try it</button>
     </body>
-
 </html>
