@@ -4,4 +4,14 @@ td {
 
 #note_intro {
     text-align: center;
+    font-size: 24px;
+}
+
+#notes_table {
+    justify-content: center;
+    display: flex;
+}
+
+#notes_table table {
+    width: 60%;
 }
