@@ -2,3 +2,8 @@
     text-align: center;
 }
 
+#test {
+    border: 1px black solid;
+    width: 420px;
+    height: 540px;
+}
